@@ -1,6 +1,6 @@
 # GymProgramManager API
 
-- [Buber Program API](#buber-program-api)
+- [GPM Program API](#gpm-program-api)
   - [Create Program](#create-program)
     - [Create Program Request](#create-program-request)
     - [Create Program Response](#create-program-response)
