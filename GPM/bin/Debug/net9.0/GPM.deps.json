@@ -1,0 +1,86 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v9.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v9.0": {
+      "GPM/1.0.0": {
+        "dependencies": {
+          "ErrorOr": "1.10.0",
+          "GPM.Contracts": "1.0.0",
+          "Microsoft.AspNetCore.OpenApi": "9.0.0-preview.1.24081.5"
+        },
+        "runtime": {
+          "GPM.dll": {}
+        }
+      },
+      "ErrorOr/1.10.0": {
+        "runtime": {
+          "lib/net6.0/ErrorOr.dll": {
+            "assemblyVersion": "1.10.0.0",
+            "fileVersion": "1.10.0.0"
+          }
+        }
+      },
+      "Microsoft.AspNetCore.OpenApi/9.0.0-preview.1.24081.5": {
+        "dependencies": {
+          "Microsoft.OpenApi": "1.4.3"
+        },
+        "runtime": {
+          "lib/net9.0/Microsoft.AspNetCore.OpenApi.dll": {
+            "assemblyVersion": "9.0.0.0",
+            "fileVersion": "9.0.24.8105"
+          }
+        }
+      },
+      "Microsoft.OpenApi/1.4.3": {
+        "runtime": {
+          "lib/netstandard2.0/Microsoft.OpenApi.dll": {
+            "assemblyVersion": "1.4.3.0",
+            "fileVersion": "1.4.3.0"
+          }
+        }
+      },
+      "GPM.Contracts/1.0.0": {
+        "runtime": {
+          "GPM.Contracts.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "GPM/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "ErrorOr/1.10.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-prNLSGADVmlFJeTt+GyZ7fg3fPJz8KYDaTIO2PtWZJ3S2ZTOkF6xKIo3JT99b+w4pvIPdl9vgpQckhbN4MdKzQ==",
+      "path": "erroror/1.10.0",
+      "hashPath": "erroror.1.10.0.nupkg.sha512"
+    },
+    "Microsoft.AspNetCore.OpenApi/9.0.0-preview.1.24081.5": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-8U20iGB3Tjmo4f8vg0y06j7ZCfLsSCs+9SfvCKf9v76ozLaTubD8TLiX4BTyrPpSe7uIK81hl8qYTi1hQDpnCQ==",
+      "path": "microsoft.aspnetcore.openapi/9.0.0-preview.1.24081.5",
+      "hashPath": "microsoft.aspnetcore.openapi.9.0.0-preview.1.24081.5.nupkg.sha512"
+    },
+    "Microsoft.OpenApi/1.4.3": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-rURwggB+QZYcSVbDr7HSdhw/FELvMlriW10OeOzjPT7pstefMo7IThhtNtDudxbXhW+lj0NfX72Ka5EDsG8x6w==",
+      "path": "microsoft.openapi/1.4.3",
+      "hashPath": "microsoft.openapi.1.4.3.nupkg.sha512"
+    },
+    "GPM.Contracts/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

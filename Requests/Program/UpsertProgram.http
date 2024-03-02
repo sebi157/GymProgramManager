@@ -1,0 +1,14 @@
+PUT http://localhost:5206/programs/d7d0a024-1569-4da5-affe-243eb0803d2a
+Content-Type: application/json
+
+{
+    "name": "Chest Hypertrophy",
+    "description": "Hypertrophy focused chest workout. Focus on slow & controlled reps with moderate weight!",
+    "startDateTime": "2022-04-08T08:00:00",
+    "endDateTime": "2022-04-08T11:00:00",
+    "exercises": [
+        "Smith Machine Incline Press 3x10",
+        "Chest Flys 3x10",
+        "Chest Press Machine 3x10"
+    ]
+}

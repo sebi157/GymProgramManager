@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "b9hPXfj214YadI79WkRZTHOCzdGniinKjYegwZ75pngj4huMfLfeGFV7cHLiDdcyUmMXBmwnLf9AkOnqEEQlmQ==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\sebim\\Desktop\\Code\\RestAPI\\GymProgramManager\\GPM\\GPM.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\sebim\\.nuget\\packages\\erroror\\1.10.0\\erroror.1.10.0.nupkg.sha512",
+    "C:\\Users\\sebim\\.nuget\\packages\\microsoft.aspnetcore.openapi\\9.0.0-preview.1.24081.5\\microsoft.aspnetcore.openapi.9.0.0-preview.1.24081.5.nupkg.sha512",
+    "C:\\Users\\sebim\\.nuget\\packages\\microsoft.openapi\\1.4.3\\microsoft.openapi.1.4.3.nupkg.sha512"
+  ],
+  "logs": []
+}

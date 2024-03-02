@@ -1,0 +1,6 @@
+@GPM_HostAddress = http://localhost:5206
+
+GET {{GPM_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

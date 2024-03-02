@@ -1,0 +1,11 @@
+C:\Users\sebim\Desktop\Code\RestAPI\GymProgramManager\GPM.Contracts\bin\Debug\net9.0\GPM.Contracts.deps.json
+C:\Users\sebim\Desktop\Code\RestAPI\GymProgramManager\GPM.Contracts\bin\Debug\net9.0\GPM.Contracts.dll
+C:\Users\sebim\Desktop\Code\RestAPI\GymProgramManager\GPM.Contracts\bin\Debug\net9.0\GPM.Contracts.pdb
+C:\Users\sebim\Desktop\Code\RestAPI\GymProgramManager\GPM.Contracts\obj\Debug\net9.0\GPM.Contracts.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\sebim\Desktop\Code\RestAPI\GymProgramManager\GPM.Contracts\obj\Debug\net9.0\GPM.Contracts.AssemblyInfoInputs.cache
+C:\Users\sebim\Desktop\Code\RestAPI\GymProgramManager\GPM.Contracts\obj\Debug\net9.0\GPM.Contracts.AssemblyInfo.cs
+C:\Users\sebim\Desktop\Code\RestAPI\GymProgramManager\GPM.Contracts\obj\Debug\net9.0\GPM.Contracts.csproj.CoreCompileInputs.cache
+C:\Users\sebim\Desktop\Code\RestAPI\GymProgramManager\GPM.Contracts\obj\Debug\net9.0\GPM.Contracts.dll
+C:\Users\sebim\Desktop\Code\RestAPI\GymProgramManager\GPM.Contracts\obj\Debug\net9.0\refint\GPM.Contracts.dll
+C:\Users\sebim\Desktop\Code\RestAPI\GymProgramManager\GPM.Contracts\obj\Debug\net9.0\GPM.Contracts.pdb
+C:\Users\sebim\Desktop\Code\RestAPI\GymProgramManager\GPM.Contracts\obj\Debug\net9.0\ref\GPM.Contracts.dll
