@@ -20,7 +20,7 @@ public class GProgram{
     [BsonElement("name")]
     public string Name { get;}
     
-     [BsonElement("description")]
+    [BsonElement("description")]
     public string Description { get;}
     
     [BsonElement("startDateTime")]

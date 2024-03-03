@@ -2,12 +2,12 @@ POST http://localhost:5206/programs
 Content-Type: application/json
 
 {
-    "name": "Legs2",
-    "description": "Killer leg workout2!",
-    "startDateTime": "2022-04-08T08:00:00",
-    "endDateTime": "2022-04-08T11:00:00",
+    "name": "testwhatever2",
+    "description": "description2!",
+    "startDateTime": "2018-04-08T08:00:00",
+    "endDateTime": "2019-04-08T11:00:00",
     "exercises": [
-        "Heavy squats 3x10",
-        "Leg extensions 3x10"
+        "mammamia!",
+        "hee hee"
     ]
 }
