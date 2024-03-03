@@ -9,3 +9,5 @@ C:\Users\sebim\Desktop\Code\RestAPI\GymProgramManager\GPM.Contracts\obj\Debug\ne
 C:\Users\sebim\Desktop\Code\RestAPI\GymProgramManager\GPM.Contracts\obj\Debug\net9.0\refint\GPM.Contracts.dll
 C:\Users\sebim\Desktop\Code\RestAPI\GymProgramManager\GPM.Contracts\obj\Debug\net9.0\GPM.Contracts.pdb
 C:\Users\sebim\Desktop\Code\RestAPI\GymProgramManager\GPM.Contracts\obj\Debug\net9.0\ref\GPM.Contracts.dll
+C:\Users\sebim\Desktop\Code\RestAPI\GymProgramManager\GPM.Contracts\obj\Debug\net9.0\GPM.Contracts.csproj.AssemblyReference.cache
+C:\Users\sebim\Desktop\Code\RestAPI\GymProgramManager\GPM.Contracts\obj\Debug\net9.0\GPM.Contracts.sourcelink.json

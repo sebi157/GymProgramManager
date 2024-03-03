@@ -10,10 +10,11 @@
 using System;
 using System.Reflection;
 
+[assembly: Microsoft.Extensions.Configuration.UserSecrets.UserSecretsIdAttribute("cb529480-2a7d-4f76-9241-5a2ff14ed68a")]
 [assembly: System.Reflection.AssemblyCompanyAttribute("GPM")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+69cc083c87fdc62624d8305a8ac92ceefac27d3f")]
 [assembly: System.Reflection.AssemblyProductAttribute("GPM")]
 [assembly: System.Reflection.AssemblyTitleAttribute("GPM")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

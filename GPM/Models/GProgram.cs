@@ -1,6 +1,8 @@
 using System.ComponentModel;
 using ErrorOr;
 using GPM.ServiceErrors;
+using MongoDB.Bson;
+using MongoDB.Bson.Serialization.Attributes;
 
 namespace GPM.Models;
 
@@ -10,12 +12,27 @@ public class GProgram{
     public const int maxNameLen = 100;
     public const int minDescLen = 10;
     public const int maxDescLen = 300;
+    
+    [BsonId]
+    [BsonRepresentation(BsonType.String)]
     public Guid Id { get;}
+    
+    [BsonElement("name")]
     public string Name { get;}
+    
+     [BsonElement("description")]
     public string Description { get;}
+    
+    [BsonElement("startDateTime")]
     public DateTime StartDateTime { get;}
+    
+    [BsonElement("endDateTime")]
     public DateTime EndDateTime { get;}
+    
+    [BsonElement("lastModifiedDateTime")]
     public DateTime LastModifiedDateTime { get;}
+    
+    [BsonElement("exercises")]
     public List<string> Exercises { get;}
     
     private GProgram(

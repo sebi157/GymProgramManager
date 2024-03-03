@@ -31,3 +31,17 @@ C:\Users\sebim\Desktop\Code\RestAPI\GymProgramManager\GPM\obj\Debug\net9.0\GPM.p
 C:\Users\sebim\Desktop\Code\RestAPI\GymProgramManager\GPM\obj\Debug\net9.0\GPM.genruntimeconfig.cache
 C:\Users\sebim\Desktop\Code\RestAPI\GymProgramManager\GPM\obj\Debug\net9.0\ref\GPM.dll
 C:\Users\sebim\Desktop\Code\RestAPI\GymProgramManager\GPM\bin\Debug\net9.0\ErrorOr.dll
+C:\Users\sebim\Desktop\Code\RestAPI\GymProgramManager\GPM\bin\Debug\net9.0\AWSSDK.Core.dll
+C:\Users\sebim\Desktop\Code\RestAPI\GymProgramManager\GPM\bin\Debug\net9.0\AWSSDK.SecurityToken.dll
+C:\Users\sebim\Desktop\Code\RestAPI\GymProgramManager\GPM\bin\Debug\net9.0\DnsClient.dll
+C:\Users\sebim\Desktop\Code\RestAPI\GymProgramManager\GPM\bin\Debug\net9.0\MongoDB.Bson.dll
+C:\Users\sebim\Desktop\Code\RestAPI\GymProgramManager\GPM\bin\Debug\net9.0\MongoDB.Driver.dll
+C:\Users\sebim\Desktop\Code\RestAPI\GymProgramManager\GPM\bin\Debug\net9.0\MongoDB.Driver.Core.dll
+C:\Users\sebim\Desktop\Code\RestAPI\GymProgramManager\GPM\bin\Debug\net9.0\MongoDB.Libmongocrypt.dll
+C:\Users\sebim\Desktop\Code\RestAPI\GymProgramManager\GPM\bin\Debug\net9.0\SharpCompress.dll
+C:\Users\sebim\Desktop\Code\RestAPI\GymProgramManager\GPM\bin\Debug\net9.0\Snappier.dll
+C:\Users\sebim\Desktop\Code\RestAPI\GymProgramManager\GPM\bin\Debug\net9.0\ZstdSharp.dll
+C:\Users\sebim\Desktop\Code\RestAPI\GymProgramManager\GPM\bin\Debug\net9.0\runtimes\linux\native\libmongocrypt.so
+C:\Users\sebim\Desktop\Code\RestAPI\GymProgramManager\GPM\bin\Debug\net9.0\runtimes\osx\native\libmongocrypt.dylib
+C:\Users\sebim\Desktop\Code\RestAPI\GymProgramManager\GPM\bin\Debug\net9.0\runtimes\win\native\mongocrypt.dll
+C:\Users\sebim\Desktop\Code\RestAPI\GymProgramManager\GPM\obj\Debug\net9.0\GPM.sourcelink.json

@@ -1,14 +1,15 @@
-PUT http://localhost:5206/programs/d7d0a024-1569-4da5-affe-243eb0803d2a
+PUT http://localhost:5206/programs/27d543c1-276a-47e4-9697-5ed9b8e0af40
 Content-Type: application/json
 
 {
-    "name": "Chest Hypertrophy",
-    "description": "Hypertrophy focused chest workout. Focus on slow & controlled reps with moderate weight!",
+    "name": "Arms",
+    "description": "Hypertrophy focused arm workout. Focus on slow & controlled reps with moderate weight!",
     "startDateTime": "2022-04-08T08:00:00",
     "endDateTime": "2022-04-08T11:00:00",
     "exercises": [
-        "Smith Machine Incline Press 3x10",
-        "Chest Flys 3x10",
-        "Chest Press Machine 3x10"
+        "DB Curls 3x10",
+        "Pushdowns 3x10",
+        "Barberll curls 5x10",
+        "Skullcrushers 4x10"
     ]
 }
