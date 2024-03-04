@@ -29,6 +29,7 @@ public class ProgramService : IProgramService{
 
     public ErrorOr<GProgram> GetProgram(Guid id){
         var program = programs.Find(program => program.Id == id).FirstOrDefault();
+        //Console.WriteLine(program.Description);
         if (program == null)
         {
             return Errors.GProgram.NotFound;

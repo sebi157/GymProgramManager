@@ -15,25 +15,25 @@ public class GProgram{
     
     [BsonId]
     [BsonRepresentation(BsonType.String)]
-    public Guid Id { get;}
+    public Guid Id { get; set;}
     
     [BsonElement("name")]
-    public string Name { get;}
+    public string Name { get; set;}
     
     [BsonElement("description")]
-    public string Description { get;}
+    public string Description { get; set;}
     
     [BsonElement("startDateTime")]
-    public DateTime StartDateTime { get;}
+    public DateTime StartDateTime { get; set;}
     
     [BsonElement("endDateTime")]
-    public DateTime EndDateTime { get;}
+    public DateTime EndDateTime { get; set;}
     
     [BsonElement("lastModifiedDateTime")]
-    public DateTime LastModifiedDateTime { get;}
+    public DateTime LastModifiedDateTime { get; set;}
     
     [BsonElement("exercises")]
-    public List<string> Exercises { get;}
+    public List<string> Exercises { get; set;}
     
     private GProgram(
         Guid id,

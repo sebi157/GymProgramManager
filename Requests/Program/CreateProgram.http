@@ -2,12 +2,12 @@ POST http://localhost:5206/programs
 Content-Type: application/json
 
 {
-    "name": "testwhatever2",
-    "description": "description2!",
+    "name": "bobrrrrrr",
+    "description": "kurwaaaaaaaaaa!",
     "startDateTime": "2018-04-08T08:00:00",
     "endDateTime": "2019-04-08T11:00:00",
     "exercises": [
-        "mammamia!",
-        "hee hee"
+        "okkkkkkkkkkkk!",
+        "okabcdefghi2!"
     ]
 }
