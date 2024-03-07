@@ -23,15 +23,9 @@ public class GProgram{
     [BsonElement("description")]
     public string Description { get; set;}
     
-    [BsonElement("startDateTime")]
-    public DateTime StartDateTime { get; set;}
-    
-    [BsonElement("endDateTime")]
-    public DateTime EndDateTime { get; set;}
-    
-    [BsonElement("lastModifiedDateTime")]
-    public DateTime LastModifiedDateTime { get; set;}
-    
+    [BsonElement("w_date")]
+    public DateOnly W_Date { get; set;}
+
     [BsonElement("exercises")]
     public List<string> Exercises { get; set;}
     
@@ -39,25 +33,20 @@ public class GProgram{
         Guid id,
         string name,
         string description,
-        DateTime startDateTime,
-        DateTime endDateTime,
-        DateTime lastModifiedDateTime,
+        DateOnly w_date,
         List<string> exercises)
     {
         Id = id;
         Name = name;
         Description = description;
-        StartDateTime = startDateTime;
-        EndDateTime = endDateTime;
-        LastModifiedDateTime = lastModifiedDateTime;
+        W_Date = w_date;
         Exercises = exercises;
     }
 
     public static ErrorOr<GProgram> Create(
         string name,
         string description,
-        DateTime startDateTime,
-        DateTime endDateTime,
+        DateOnly w_date,
         List<string> exercises,
         Guid? id = null
     ){
@@ -73,9 +62,7 @@ public class GProgram{
             id ?? Guid.NewGuid(),
             name,
             description,
-            startDateTime,
-            endDateTime,
-            DateTime.UtcNow,
+            w_date,
             exercises
         );
     }

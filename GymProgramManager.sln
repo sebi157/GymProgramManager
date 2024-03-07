@@ -3,17 +3,14 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.0.31903.59
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GPM.Contracts", ".\GPM.Contracts\GPM.Contracts.csproj", "{89F7CF90-58FD-4695-BAC4-0ECFFE7AE2BD}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GPM.Contracts", "GPM.Contracts\GPM.Contracts.csproj", "{89F7CF90-58FD-4695-BAC4-0ECFFE7AE2BD}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GPM", ".\GPM\GPM.csproj", "{5C693285-5386-493E-A816-24AAA839C7A9}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GPM", "GPM\GPM.csproj", "{5C693285-5386-493E-A816-24AAA839C7A9}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
 		Release|Any CPU = Release|Any CPU
-	EndGlobalSection
-	GlobalSection(SolutionProperties) = preSolution
-		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{89F7CF90-58FD-4695-BAC4-0ECFFE7AE2BD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
@@ -24,5 +21,11 @@ Global
 		{5C693285-5386-493E-A816-24AAA839C7A9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5C693285-5386-493E-A816-24AAA839C7A9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5C693285-5386-493E-A816-24AAA839C7A9}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {7E16564E-B2CA-4187-91FB-3496D6589EDF}
 	EndGlobalSection
 EndGlobal

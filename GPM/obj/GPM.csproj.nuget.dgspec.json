@@ -122,6 +122,14 @@
             "MongoDB.Driver": {
               "target": "Package",
               "version": "[2.24.0, )"
+            },
+            "Moq": {
+              "target": "Package",
+              "version": "[4.20.70, )"
+            },
+            "xUnit": {
+              "target": "Package",
+              "version": "[2.7.0, )"
             }
           },
           "imports": [

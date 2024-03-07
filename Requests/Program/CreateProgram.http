@@ -2,12 +2,13 @@ POST http://localhost:5206/programs
 Content-Type: application/json
 
 {
-    "name": "bobrrrrrr",
-    "description": "kurwaaaaaaaaaa!",
-    "startDateTime": "2018-04-08T08:00:00",
-    "endDateTime": "2019-04-08T11:00:00",
+    "name": "Back1",
+    "description": "Strength/powerlifting back workout -  Wednesday",
+    "w_date": "2024-03-02",
     "exercises": [
-        "okkkkkkkkkkkk!",
-        "okabcdefghi2!"
+        "Deadlift 5x5",
+        "Heavy barbell row 3x10",
+        "Pulldown wide-grip 3x10",
+        "Cable row 3x10"
     ]
 }

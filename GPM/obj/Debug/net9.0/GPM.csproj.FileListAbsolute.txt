@@ -45,3 +45,9 @@ C:\Users\sebim\Desktop\Code\RestAPI\GymProgramManager\GPM\bin\Debug\net9.0\runti
 C:\Users\sebim\Desktop\Code\RestAPI\GymProgramManager\GPM\bin\Debug\net9.0\runtimes\osx\native\libmongocrypt.dylib
 C:\Users\sebim\Desktop\Code\RestAPI\GymProgramManager\GPM\bin\Debug\net9.0\runtimes\win\native\mongocrypt.dll
 C:\Users\sebim\Desktop\Code\RestAPI\GymProgramManager\GPM\obj\Debug\net9.0\GPM.sourcelink.json
+C:\Users\sebim\Desktop\Code\RestAPI\GymProgramManager\GPM\bin\Debug\net9.0\Castle.Core.dll
+C:\Users\sebim\Desktop\Code\RestAPI\GymProgramManager\GPM\bin\Debug\net9.0\Moq.dll
+C:\Users\sebim\Desktop\Code\RestAPI\GymProgramManager\GPM\bin\Debug\net9.0\xunit.abstractions.dll
+C:\Users\sebim\Desktop\Code\RestAPI\GymProgramManager\GPM\bin\Debug\net9.0\xunit.assert.dll
+C:\Users\sebim\Desktop\Code\RestAPI\GymProgramManager\GPM\bin\Debug\net9.0\xunit.core.dll
+C:\Users\sebim\Desktop\Code\RestAPI\GymProgramManager\GPM\bin\Debug\net9.0\xunit.execution.dotnet.dll

@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("GPM.Contracts")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+875a1b9ecf30bf16109c6b482a623a9d061431aa")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+c712300580f9e2e6e55a793d32336c86ab20d2d0")]
 [assembly: System.Reflection.AssemblyProductAttribute("GPM.Contracts")]
 [assembly: System.Reflection.AssemblyTitleAttribute("GPM.Contracts")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

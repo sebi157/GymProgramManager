@@ -4,8 +4,6 @@ public record ProgramResponse(
     Guid Id,
     string Name,
     string Description,
-    DateTime StartDateTime,
-    DateTime EndDateTime,
-    DateTime LastModifiedTime,
+    DateOnly W_Date,
     List<string> Exercises
 );

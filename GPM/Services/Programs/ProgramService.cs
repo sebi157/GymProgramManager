@@ -37,6 +37,16 @@ public class ProgramService : IProgramService{
         return program;
     }
 
+    public ErrorOr<List<GProgram>> GetAllPrograms(){
+        var programs_got = programs.Find(_ => true).ToList();
+        //Console.WriteLine(programs_got[0].Name);
+        if (programs_got == null)
+        {
+            return Errors.GProgram.NotFound;
+        }
+        return programs_got;
+    }
+
     public ErrorOr<UpsertedProgram> UpsertProgram(GProgram gprogram)
     {
         var result = programs.ReplaceOne(

@@ -22,8 +22,7 @@ public class ProgramsController : ApiController
         ErrorOr<GProgram> requestToProgramResult = GProgram.Create(
             request.Name,
             request.Description,
-            request.StartDateTime,
-            request.EndDateTime,
+            request.W_Date,
             request.Exercises
         );
         if(requestToProgramResult.IsError)
@@ -49,13 +48,22 @@ public class ProgramsController : ApiController
         );
     }
 
+    [HttpGet]
+    public IActionResult GetAllPrograms()
+    {
+        ErrorOr<List<GProgram>> getProgResult = _programService.GetAllPrograms();
+        return getProgResult.Match(
+            programs=> Ok(programs.Select(p => MapProgramResponse(p)).ToList()),
+            errors => Problem(errors)
+        );
+    }
+
     [HttpPut("{id:guid}")]
     public IActionResult UpsertProgram(Guid id, UpsertProgramRequest request){
         ErrorOr<GProgram> requestToProgramResult = GProgram.Create(
             request.Name,
             request.Description,
-            request.StartDateTime,
-            request.EndDateTime,
+            request.W_Date,
             request.Exercises,
             id
         );
@@ -87,9 +95,7 @@ public class ProgramsController : ApiController
                     prog.Id,
                     prog.Name,
                     prog.Description,
-                    prog.StartDateTime,
-                    prog.EndDateTime,
-                    prog.LastModifiedDateTime,
+                    prog.W_Date,
                     prog.Exercises
                 );
     }
